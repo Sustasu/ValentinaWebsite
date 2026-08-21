@@ -3,102 +3,128 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Valentina is a senior product designer creating useful, expressive digital experiences.">
-    <title>Valentina — Senior Product Designer</title>
+    <meta name="description" content="Portfolio of Valentina Florentina Balta-Cojocaru-Stan, senior product designer for complex digital products.">
+    <title>Valentina Florentina Balta-Cojocaru-Stan | Product Designer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=9">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=10">
 </head>
 <body>
-    <div class="cursor-glow" aria-hidden="true"></div>
-    <header class="site-header">
-        <a class="wordmark" href="#top" aria-label="Valentina, back to top">
-            <span class="wordmark-mark">V</span>
-            <span class="wordmark-copy">Senior Product Designer<br>London, UK</span>
-        </a>
-        <nav aria-label="Primary navigation">
-            <a href="#work"><span>01</span> Work</a>
-            <a href="#about"><span>02</span> About</a>
-            <a href="#contact"><span>03</span> Contact</a>
+    <section class="intro-screen" id="top" aria-label="Opening title">
+        <h1 class="intro-name" aria-label="Valentina BCS">
+            <span>V</span><span>a</span><span class="letter-l">l</span><span>e</span><span>n</span><span>t</span><span>i</span><span>n</span><span>a</span>
+            <span class="name-gap"></span>
+            <span>B</span><span>C</span><span>S</span>
+        </h1>
+    </section>
+
+    <svg class="flow-arrow" aria-hidden="true">
+        <path class="flow-arrow-line" d=""></path>
+        <path class="flow-arrow-head" d=""></path>
+    </svg>
+
+    <header class="site-header" aria-label="Portfolio actions">
+        <a class="brand-mark" href="#top" aria-label="Valentina, back to top">V</a>
+        <nav class="top-nav" aria-label="Primary navigation">
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <a class="availability" href="#contact"><i></i> Available for select projects</a>
+        <div class="download-actions" aria-label="Downloads">
+            <a class="download-button" href="assets/downloads/valentina-portfolio.txt" download>Portfolio</a>
+            <a class="download-button is-accent" href="assets/downloads/valentina-cv.txt" download>CV</a>
+        </div>
     </header>
 
-    <main id="top">
+    <main>
         <section class="hero" aria-labelledby="hero-title">
-            <div class="hero-copy">
-                <p class="eyebrow reveal">Independent designer · UX / UI / Product</p>
-                <h1 id="hero-title" class="reveal">I shape complex ideas into <em>clear, human</em> products.</h1>
-                <div class="hero-foot reveal">
-                    <p>Strategy, research and visual craft for teams building the next useful thing.</p>
-                    <a class="text-link" href="#work">Explore selected work <span>↘</span></a>
-                </div>
+            <div class="hero-intro reveal">
+                <p class="eyebrow">Senior Product Designer / UX / UI</p>
+                <h1 id="hero-title">Valentina Florentina Balta-Cojocaru-Stan</h1>
+                <p class="hero-summary">I design clear, useful digital products for complex journeys, working from strategy and discovery through delivery with product leaders, engineers and stakeholders.</p>
             </div>
-            <div class="hero-visual" aria-label="Abstract tropical foliage illuminated by pink, peach and lavender light">
-                <div class="visual-caption"><span>Designing with care</span><span>© 2026</span></div>
-                <div class="orb orb-one" aria-hidden="true"></div>
-                <div class="orb orb-two" aria-hidden="true"></div>
+
+            <div class="hero-proof" id="experience" aria-label="Experience highlights">
+                <article class="proof-card proof-primary reveal">
+                    <span>Bonhams</span>
+                    <h2>Created single-handedly Bonhams bidding platforms and Bonhams app.</h2>
+                    <p>Product strategy, UX architecture, UI systems, high-trust auction journeys.</p>
+                </article>
+                <article class="proof-card proof-accent reveal">
+                    <span>Travellist</span>
+                    <h2>Shaped travel planning flows from early product thinking to polished interface.</h2>
+                    <p>Roadmaps, prototypes, stakeholder alignment, conversion-focused journeys.</p>
+                </article>
+            </div>
+
+            <div class="quick-projects" aria-label="Quick project links">
+                <a class="quick-card reveal" href="#bonhams">
+                    <span>01 / Bonhams</span>
+                    <strong>High-stakes bidding, made usable.</strong>
+                </a>
+                <a class="quick-card quick-image reveal" href="#travellist">
+                    <span>02 / Travellist</span>
+                    <strong>Travel planning with fewer dead ends.</strong>
+                </a>
+                <a class="quick-card quick-dark reveal" href="#systems">
+                    <span>03 / Systems</span>
+                    <strong>Reusable product language for faster teams.</strong>
+                </a>
             </div>
         </section>
 
-        <section class="intro" id="about">
-            <p class="section-label">What I bring</p>
-            <div class="intro-copy reveal"><p>I turn complex signals into clear products people understand, trust and enjoy.</p></div>
-            <div class="capabilities">
-                <span>Product strategy</span><span>UX research</span><span>Interaction design</span><span>Visual systems</span>
-            </div>
-        </section>
+        <section class="projects" id="projects" aria-labelledby="projects-title">
+            <div class="section-kicker">Selected projects</div>
+            <h2 id="projects-title">Short stories. Big product outcomes.</h2>
 
-        <section class="work" id="work" aria-labelledby="work-title">
-            <div class="section-heading">
-                <p class="section-label">Selected work</p>
-                <h2 id="work-title">A few things<br>I’ve helped grow.</h2>
-                <p class="work-count">Projects / 03</p>
-            </div>
             <div class="project-list">
-                <a class="project project-coral reveal" href="#contact">
-                    <span class="project-number">01</span>
-                    <div class="project-title"><h3>Making everyday money feel effortless</h3><p>Fintech · Product strategy · Mobile</p></div>
-                    <span class="project-stat"><b>+24%</b> activation</span><span class="project-arrow">↗</span>
+                <a class="project-tile reveal" id="bonhams" href="#contact">
+                    <div class="project-media media-coral" aria-hidden="true">
+                        <span>Bidding</span>
+                    </div>
+                    <div class="project-copy">
+                        <p>Bonhams / Auction platform</p>
+                        <h3>Designed the bidding experience recruiters ask about first.</h3>
+                        <span>View case study</span>
+                    </div>
                 </a>
-                <a class="project project-lilac reveal" href="#contact">
-                    <span class="project-number">02</span>
-                    <div class="project-title"><h3>A calmer way to navigate complex care</h3><p>Health · Service design · Web app</p></div>
-                    <span class="project-stat"><b>−38%</b> task time</span><span class="project-arrow">↗</span>
-                </a>
-                <a class="project project-moss reveal" href="#contact">
-                    <span class="project-number">03</span>
-                    <div class="project-title"><h3>One design language for a growing platform</h3><p>SaaS · Design system · Team enablement</p></div>
-                    <span class="project-stat"><b>6</b> teams aligned</span><span class="project-arrow">↗</span>
-                </a>
-            </div>
-        </section>
 
-        <section class="principles" aria-label="Design principles">
-            <div class="principle-visual" aria-hidden="true"></div>
-            <div class="principle-copy">
-                <p class="section-label">My approach</p>
-                <h2>Soft edges.<br>Sharp thinking.</h2>
-                <ol>
-                    <li><span>01</span><p><b>Begin with context.</b> Good design starts by understanding the system, not decorating the surface.</p></li>
-                    <li><span>02</span><p><b>Make it tangible.</b> Prototypes create better conversations and clearer decisions.</p></li>
-                    <li><span>03</span><p><b>Leave things stronger.</b> Every project should improve both the product and the team behind it.</p></li>
-                </ol>
+                <a class="project-tile reveal" id="travellist" href="#contact">
+                    <div class="project-media media-image" aria-hidden="true">
+                        <span>Travel</span>
+                    </div>
+                    <div class="project-copy">
+                        <p>Travellist / Planning product</p>
+                        <h3>Turned scattered inspiration into a focused product journey.</h3>
+                        <span>View case study</span>
+                    </div>
+                </a>
+
+                <a class="project-tile reveal" id="systems" href="#contact">
+                    <div class="project-media media-violet" aria-hidden="true">
+                        <span>Systems</span>
+                    </div>
+                    <div class="project-copy">
+                        <p>Product systems / Team enablement</p>
+                        <h3>Built practical UI patterns that help cross-functional teams move faster.</h3>
+                        <span>View case study</span>
+                    </div>
+                </a>
             </div>
         </section>
 
         <section class="contact" id="contact">
-            <p class="section-label">Have something in mind?</p>
-            <a href="mailto:hello@valentina.design">Let’s make it<br><em>meaningful.</em> <span>↗</span></a>
-            <div class="contact-meta">
-                <p>Senior Product Designer<br>UX · UI · Strategy</p>
-                <p>Based in London<br>Working worldwide</p>
-                <p><a href="#">LinkedIn</a><br><a href="#">Résumé</a></p>
-            </div>
+            <p class="section-kicker">Available for senior product design roles and select product work</p>
+            <a href="mailto:hello@valentina.design">Let’s talk product, craft and useful outcomes.</a>
         </section>
     </main>
-    <footer><span>Valentina © 2026</span><span>Designed with intention</span><a href="#top">Back to top ↑</a></footer>
+
+    <footer>
+        <span>Valentina Florentina Balta-Cojocaru-Stan</span>
+        <a href="#top">Back to top</a>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
