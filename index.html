@@ -1,83 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valentina BCS - Designer Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Valentina is a senior product designer creating useful, expressive digital experiences.">
+    <title>Valentina — Senior Product Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=9">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <a href="index.html">Valentina BCS</a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="active">Home</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="Valentina, back to top">
+            <span class="wordmark-mark">V</span>
+            <span class="wordmark-copy">Senior Product Designer<br>London, UK</span>
+        </a>
+        <nav aria-label="Primary navigation">
+            <a href="#work"><span>01</span> Work</a>
+            <a href="#about"><span>02</span> About</a>
+            <a href="#contact"><span>03</span> Contact</a>
+        </nav>
+        <a class="availability" href="#contact"><i></i> Available for select projects</a>
+    </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Valentina BCS</h1>
-                <p class="tagline">Designer portfolio coming soon.</p>
-                <p class="subtitle">Crafting beautiful digital experiences</p>
-            </div>
-        </section>
-
-        <section class="featured" id="featured">
-            <div class="container">
-                <h2>Featured Work</h2>
-                <p class="section-subtitle">A selection of recent projects</p>
-                
-                <div class="work-grid">
-                    <div class="work-item">
-                        <div class="work-placeholder"></div>
-                        <h3>Project Name</h3>
-                        <p>Design Direction, Branding</p>
-                    </div>
-                    <div class="work-item">
-                        <div class="work-placeholder"></div>
-                        <h3>Project Name</h3>
-                        <p>UX/UI Design, Web Design</p>
-                    </div>
-                    <div class="work-item">
-                        <div class="work-placeholder"></div>
-                        <h3>Project Name</h3>
-                        <p>Brand Identity, Packaging</p>
-                    </div>
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow reveal">Independent designer · UX / UI / Product</p>
+                <h1 id="hero-title" class="reveal">I shape complex ideas into <em>clear, human</em> products.</h1>
+                <div class="hero-foot reveal">
+                    <p>Strategy, research and visual craft for teams building the next useful thing.</p>
+                    <a class="text-link" href="#work">Explore selected work <span>↘</span></a>
                 </div>
-
-                <div class="cta-section">
-                    <a href="#featured" class="btn btn-primary">Explore Work</a>
-                </div>
+            </div>
+            <div class="hero-visual" aria-label="Abstract tropical foliage illuminated by pink, peach and lavender light">
+                <div class="visual-caption"><span>Designing with care</span><span>© 2026</span></div>
+                <div class="orb orb-one" aria-hidden="true"></div>
+                <div class="orb orb-two" aria-hidden="true"></div>
             </div>
         </section>
 
-        <section class="about-preview">
-            <div class="container">
-                <div class="about-content">
-                    <h2>About</h2>
-                    <p>I'm a designer passionate about creating meaningful digital experiences. With a focus on typography, color, and user-centered design, I help brands tell their stories in beautiful and effective ways.</p>
-                    <p>My work spans brand identity, web design, and digital products.</p>
-                </div>
+        <section class="intro" id="about">
+            <p class="section-label">What I bring</p>
+            <div class="intro-copy reveal"><p>I turn complex signals into clear products people understand, trust and enjoy.</p></div>
+            <div class="capabilities">
+                <span>Product strategy</span><span>UX research</span><span>Interaction design</span><span>Visual systems</span>
+            </div>
+        </section>
+
+        <section class="work" id="work" aria-labelledby="work-title">
+            <div class="section-heading">
+                <p class="section-label">Selected work</p>
+                <h2 id="work-title">A few things<br>I’ve helped grow.</h2>
+                <p class="work-count">Projects / 03</p>
+            </div>
+            <div class="project-list">
+                <a class="project project-coral reveal" href="#contact">
+                    <span class="project-number">01</span>
+                    <div class="project-title"><h3>Making everyday money feel effortless</h3><p>Fintech · Product strategy · Mobile</p></div>
+                    <span class="project-stat"><b>+24%</b> activation</span><span class="project-arrow">↗</span>
+                </a>
+                <a class="project project-lilac reveal" href="#contact">
+                    <span class="project-number">02</span>
+                    <div class="project-title"><h3>A calmer way to navigate complex care</h3><p>Health · Service design · Web app</p></div>
+                    <span class="project-stat"><b>−38%</b> task time</span><span class="project-arrow">↗</span>
+                </a>
+                <a class="project project-moss reveal" href="#contact">
+                    <span class="project-number">03</span>
+                    <div class="project-title"><h3>One design language for a growing platform</h3><p>SaaS · Design system · Team enablement</p></div>
+                    <span class="project-stat"><b>6</b> teams aligned</span><span class="project-arrow">↗</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="principles" aria-label="Design principles">
+            <div class="principle-visual" aria-hidden="true"></div>
+            <div class="principle-copy">
+                <p class="section-label">My approach</p>
+                <h2>Soft edges.<br>Sharp thinking.</h2>
+                <ol>
+                    <li><span>01</span><p><b>Begin with context.</b> Good design starts by understanding the system, not decorating the surface.</p></li>
+                    <li><span>02</span><p><b>Make it tangible.</b> Prototypes create better conversations and clearer decisions.</p></li>
+                    <li><span>03</span><p><b>Leave things stronger.</b> Every project should improve both the product and the team behind it.</p></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <p class="section-label">Have something in mind?</p>
+            <a href="mailto:hello@valentina.design">Let’s make it<br><em>meaningful.</em> <span>↗</span></a>
+            <div class="contact-meta">
+                <p>Senior Product Designer<br>UX · UI · Strategy</p>
+                <p>Based in London<br>Working worldwide</p>
+                <p><a href="#">LinkedIn</a><br><a href="#">Résumé</a></p>
             </div>
         </section>
     </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Valentina BCS. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#" aria-label="Instagram">Instagram</a>
-                <a href="#" aria-label="Behance">Behance</a>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            </div>
-        </div>
-    </footer>
-
+    <footer><span>Valentina © 2026</span><span>Designed with intention</span><a href="#top">Back to top ↑</a></footer>
     <script src="js/script.js"></script>
 </body>
 </html>

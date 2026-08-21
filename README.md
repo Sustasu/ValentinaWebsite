@@ -1,6 +1,6 @@
-# Valentina BCS - Designer Portfolio Website
+# Valentina — Senior Product Designer Portfolio
 
-A minimal, elegant designer portfolio website built with clean HTML, CSS, and JavaScript. The design features a sophisticated beige color palette with serif typography, perfect for showcasing creative work.
+An editorial portfolio concept for a senior UX/UI and product designer, built with clean HTML, CSS, and JavaScript. Iteration One pairs structured typography with a luminous botanical visual language inspired by projected foliage, frosted glass, and pink–apricot–lavender light.
 
 ## Design Features
 
